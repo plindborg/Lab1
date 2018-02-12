@@ -27,10 +27,9 @@ public class MainActivity extends AppCompatActivity {
                     i = 0;
                 }
                 text1.setText(names[i]);
+                text1.setTextSize(20 + i);;
                 i++;
             }
         });
-
     }
-
 }
