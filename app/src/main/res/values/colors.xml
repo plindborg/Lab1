@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorMff">#74D7FF</color>
     <color name="colorMffEmblem">#0091D2</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
