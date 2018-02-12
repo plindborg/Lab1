@@ -14,13 +14,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button button = findViewById(R.id.button);
-        final TextView text1 = findViewById(R.id.textView);
+        final TextView text1 = findViewById(R.id.textView0);
+        final String names[] = {"Bäst i fotboll","Parkernas stad","Markus Rosenberg","20 guld","Vacker dialekt"};
+
+
         button.setOnClickListener(new View.OnClickListener() {
+            int i = 0;
             public void onClick(View v) {
-                text1.setText("Button is clicked!");
+
+
+                if(i > 4) {
+                    i = 0;
+                }
+                text1.setText(names[i]);
+                i++;
             }
         });
 
-
     }
+
 }
